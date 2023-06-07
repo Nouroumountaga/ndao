@@ -24,9 +24,9 @@ h6{
 }
 .header header img{
     position: absolute;
-    left: 80%;
+    left: 83%;
     width: 13%;
-    top: 1vh;
+    top: -2vh;
 }
 .header header p{
     color: rgb(12, 196, 196);
