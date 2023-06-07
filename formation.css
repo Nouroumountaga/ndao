@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:white;
+}
+
+h6{
+    text-shadow: 2px 2px 2px rgb(18, 190, 73);
+    color: rgb(0, 0, 255);
+    text-align: center;
+    font-size: 25px;
+}
+.header header .title h1{
+    color: navy;
+    font-size: 30px;
+    margin: 0;
+}
+.header{
+    display: flex;
+}
+.header header img{
+    position: absolute;
+    left: 80%;
+    width: 13%;
+    top: 1vh;
+}
+.header header p{
+    color: rgb(12, 196, 196);
+    margin: 0;
+    font-size: 18px;
+}
+.container{
+    margin-bottom: 2vh;
+    margin-top: -3vh;
+    text-align: center;
+}
+.container p{
+    border: 2px solid ;
+    color: rgb(255, 0, 68);
+    margin: 0;
+    background-color: navy;
+    font-size: 25px;
+}
+.container h1{
+    font-size: 55px;
+    margin-top: 0.3vh;
+    color: navy;
+}
+
+article{
+    font-size: 25px;
+    color: rgb(6, 12, 95);
+    margin-left:30px;
+    font-weight: bold;
+    text-shadow: 0.1px 0.1px 0.1px blue;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    color: crimson;
+}
+ul li{
+    font-size: 20px;
+    margin-left: 40%;
+    color:navy;
+}
+h2{
+    color: crimson;
+}
+h5{
+    font-size: 20px;
+    color: navy;
+    text-align: center;
+    border-radius: 10px ;
+}
+h4{
+    color: navy;
+    font-size: 25px;
+}
+.section{
+    margin-left: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section h1{
+    font-size: 30px;
+    color: cadetblue;
+}
+.section p{
+    font-size: 20px;
+    color:navy;
+}
+.section .row3{
+    margin-left: 5%;
+}
+.section .row2{
+    margin-top: 3vh;
+}
+.container span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar nav .list1{
+    background-color: rgb(9, 223, 230);
+}
+.navbar nav .list2{
+    background-color: rgb(249, 16, 75);
+}
+.navbar nav .list3{
+    background-color: rgb(255, 251, 0);
+}
+.navbar nav .list4{
+    background-color: rgb(9, 199, 110);
+}
+.navbar nav .list5{
+    background-color: rgb(13, 108, 224);
+}
+
+footer{
+    width: 50%;
+    margin-left: 25%;
+}
+footer p{
+    font-size: 25px;
+    color: navy;
+}
