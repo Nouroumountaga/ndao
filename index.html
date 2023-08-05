@@ -2,70 +2,370 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="formation.css">
-    <meta name="author" content="NourouMountagaNdao">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="description" content="apprendre html  css formation compléte , développeur freelance">
-    <meta name="keywords" content="meilleur développeur web , formation html css en ligne">
-    <title>MA PortoFolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="NourouMountaga Ndao">
+    <meta name="keywords" content="developpeur web, formation web html css , developpeur sénégal, création site web">
+    <meta name="description" content="developpeur web lougatois,vendeur formation html css , vendeur de services pour la création de votre  site de vente en ligne 
+        la création d'un bloc publicitaire ou Personnel">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <div class="header">
-        <header>
+    <header>
+        <div class="header">
             <div class="title">
-                <h1>Nourou <br>
-                    Mountaga
-                    <br> Ndao
-                </h1>
+                <h1>Informatique pour tous.Sn </h1>
+                <img src="/projets image/bars-solid.svg" alt="" id="img">
             </div>
-            <img src="moi.png" alt="icon">
-        </header>
-    </div>
-   
-    <main>
-        <div class="container">
-             <h1>ANNONCE</h1>
-            <p>Ma Formation en ligne HTML CSS</p>
+            <div >
+                <ul  id="reseaux-sociaux" class="reseaux-sociaux">
+                    <button id="btn">X</button>
+              
+                    <li>
+                        <a href="">wathsapp</a>
+                    </li>
+                    <li>
+                        <a href="">facebook</a>
+                    </li>
+                    <li>
+                        <a href="">instagram</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-       <article>
-            Ma formation compléte HTML CSS  bientot disponible <br>
-            apprendre la programmation web 10% théorie & 90% de la pratique <br>
-            créer vos propres sites web de A-Z participer à des défis en ligne <br>
-            obtenez des exercices  en html css <br> realiser  des projets web en temps réel
-            avec moi <br>
-       </article>
-            <h3>
-                bonus
-            </h3>
-       <ul>
-            <li>
-                Bases de la language pythnon
-            </li>
-            <li>
-                Exercices sur la language pythnon
-            </li>
-            <li>
-                Chat en direct avec moi
-            </li>
-            <li>
-                Idée de projet web
-            </li>
-            <li>
-                Idée sur le freelancing
-            </li>
-       </ul>
-            <h2>
-                contactez-moi ou m'envoyer un mail pour plus d'infos !
-            </h2>
-            <h5>2500fr Pas de mensualité</h5> 
-    </main>
+    </header>
+    <nav>
+        <div>
+            <h3>apprendre <span class="text"></span> avec nouroumountaga</h3>
+        </div>
+    </nav>
+    <script>
+        var res = document.querySelector('#btn');
+        var res2 = document.querySelector('#img')
+        res2.addEventListener('click',ouvrir);
+        function ouvrir(){
+            document.querySelector('#reseaux-sociaux').classList.remove('active')
+        }
+        res.addEventListener('click',fermer);
+        function fermer(){
+            document.querySelector('#reseaux-sociaux').classList.add('active')
+        }
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+           var typed = new Typed(".text",{
+            strings: ['le développement web', 
+            'le développement mobile',' le développement logiciel '," la sécurité  informatique",
+             "la dataScience",'....'],
+            typeSpeed: 50,
+            loop:true,
+            backSpeed:70
+    });
+    </script>
     <section>
-        <h4> Place sont limitées <br> La Formation Est L'éssence De Tout Succées  &.. <br> La Compétence Ou L'incompétence N'ont Pas D'age </h4>
-        <p style="font-size: 25px; border: 2px solid; background-color: crimson; color:white;">contact: +221 78-184-30-73 <br></p>
-        <p style="font-size: 20px; color: navy;">Nouroumountagandao5@gmail.com</p>
+        <div class="bloc1">
+            <h2>Description</h2>
+        </div>
+        <div class="descript">
+            <p>Découvrez l'univers fascinant de l'informatique avec notre site captivant ! 
+                Plongez-vous dans les dernières tendances technologiques,explorez les différentes domaines de l'informatique 
+                apprenez des astuces et des conseils pratiques pour améliorer vos compétences numériques. 
+                Que vous soyez novive ou expert , notre site offre un voyage enrichissant dans le monde numérique 
+                Rejoignez-nous maintenant et embarquez pour une aventure passionnante au coeur de la technologie ! 
+            </p>
+        </div>
     </section>
+    <section>
+        <div class="container">
+            <div class="sujet-1">
+                <h1>Quels sont les domaines de l'informatique ?</h1>
+                <p>les domaines de l'informatique sont variés et incluent notamment: <br></p>
+                <ul>
+                    <li>Le développement de logiciel</li>
+                    <li>Le développement d'application</li>
+                    <li>la sécurité informatique</li>
+                    <li>les réseaux informatique</li>
+                    <li>l'intelligence artificielle</li>
+                    <li>la conception de site web et le développement web</li>
+                    <li>l'informatique qantique</li>
+                    <li>l'informatique bureautique</li>
+                    <li>l'informatique médicale et le bioinformatique</li>
+                </ul>
+            </div>
+            <div class="div">
+                <span>.</span>
+            </div>
+            <div class="sujet-2">
+                <h1>comment choisir son domaine ?</h1>
+                <br>
+                <p> 
+                    <span class="span"> I1 </span> <br>
+                    Dans le milieu de L'informatique,il existe une multitude de domaines spécialiés et choisir son domaine de vos intérets,compétences et objectifs professionnels. </p>
+                <br>   
+                    <p>
+                        <span class="span">I2</span> <br>
+                        <span> Nos conseils:</span> 
+                    </p>
+                    <br>
+                    <p>
+                        <span class="span">I3</span> <br>
+                        <span>-explorez vos  intérets:</span>  Réfléchissez aux aspects de l'informatique qui vous passione le plus Que ce soit le développement mobile,web l'intelligence artificielle... 
+                    </p>
+                    <br>
+                    <p>
+                        <span class="span">I4</span> <br>
+                        <span>Choisissez un domaine qui vous motive et excite;</span>
+                    </p>
+                    <br>
+                    <p>
+                        <span class="span">I5</span> <br>
+                        <span >-Identifiez vos compétences:</span> Evaluez vos compétences actuelle en programmation,en conception... Opter pour un domaine qui capitalise sur vos forces existantes, mais soyez egalement pret pour apprendre de nouvelles compétences.
+                    </p>
+                    <br>
+            </div>
+        </div>
+        <div class="para">
+            <div class="para1">
+                <p>
+                    <span class="span">I6</span> <br> <br>
+                    -Tester par des projets:
+                    Si possible essayer de realiser des projets personnels <br>
+                    dans différents domaine de l'informatique <br>
+                     cela vous permettra de découvrir les aspects pratique de chaque domaine <br>
+                    et de determiner celui qui vous attire le plus. <br>
+                </p>
+                <p>
+                    <span class="span">I7</span> <br> <br>
+                    -Demander des conseils:
+                    Parler avec des professionnels de l'informatique travaillant <br> 
+                    dans différents domaines <br> leur conseils et expériences <br>
+                    pourraient vous donner un aperçu des réalistés du secteur. <br>
+                </p>
+            </div>
+
+            <div class="para2">
+                <p>
+                    <span class="span">I8</span> <br> <br>
+                    - Rester flexible:Garder à l'esprit que le domaine de l'informatique  <br>
+                    est en constante evolution essayer toujours <br>
+                     d'etre à jour avec les nouvelles technologies.</p>
+                <p>
+                    <span class="span">I9</span> <br> <br>
+                    -Equilibrez l'offre et la demande: Assurer-vous que le domaine <br>
+                     que vous Choisissez présente des opportunités d'emploi <br>
+                      et une demande sur le marché de travail. <br></p> 
+                <p>
+                    <span class="span">I0</span> <br> <br>
+                    -Poursuivre la formation:Une fois que vous avez chosi <br>
+                     votre domaine,investissez dans votre formation <br> continue en suivant des cours et en participants <br>
+                      à des projets professionnels.</p> 
+            </div>
+            <i> <span>Rappelez-vous</span> que choisir son domaine dans l'informatique est une décision personnelle et il n'y a pas de choix parfait.Ce qui compte le plus est de trouver un domaine qui correspond à vos passions,vos compétences et vos aspirations professionnels. Bonne réflexion et bonne chance  dans votre parcours informatique ! </i> </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section class="sect">
+            <h1>Ce qu'il faut savoir</h1>
+            <div class="content">
+                <div class="flex-parent">
+                    <div class="flex-box">
+                        <div class="content-child-2">
+                            <p> 1 Le développement  web</p>
+                            <img src="webdev.png" alt="">
+                            <p>Langage et technologie utilisés: 
+                            HTML/CSS, javaScript framework  (react,Angulat,...). 
+                            création de sites web interactifs et reactifs 
+                            création d'interface utilisateur  conviviales et accessibles. 
+                            optimisatio des performances  et des temps de chargement
+                        </p>
+                        </div>
+                        <p></p>
+                        <div class="content-child-2">
+                            <p> 2 Le développement mobile</p>
+                            <img src="appdev.png" alt="">
+                            <p>
+                                Développement d'application 
+                                pour android (java,Kotlin) 
+                                ou IOS (swift) 
+                                conception d'interface mobile 
+                                conviviales integration de fonctionnalités 
+                                matérielles  et  de capteurs 
+                                Tests et déploiement d'application 
+                                sur les boutiques d'application
+                            </p>
+                        </div>
+                    </div>
+                    <p></p>
+                    <section>
+                     <div class="flex-box-2">
+                        <div class="content-child-2">
+                            <p> 3 Le développement logiciel</p>
+                            <img src="loglangue2.png" alt="">
+                            <p>langage courants: <br> Java,python,C++ , C#.. <br>
+                                Conception,développement <br> et <br> tests d'application logicielles. <br>
+                                utilisation <br> de <br> methodologie <br>
+                                de développement agiles collaborer <br> avec des equipes pour créer <br>
+                                des produits logiciels de qualité
+                            </p>
+                    </div>
+                    <p></p>
+                    <div class="content-child-2">
+                        <p>L'intelligence artificielle</p>
+                        <img src="robot.png" alt="">
+                        <p>
+                            Concepts fondamentaux de l'IA <br>
+                            et de l'apprentissage automatique <br>
+                            Algorithmes d'apprentissage <br>
+                            supervisé, non supervisé <br>
+                            et renforcé utilisation de <br>
+                            bibliothèque populaires telles <br>
+                            que Tensorflow ou scikit-learn. <br>
+                            application de l'IA dans <br>
+                            divers domaines comme la <br>
+                            vision par odinateur et le <br>
+                            traitement du langage naturel
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p></p>
+            <div class="main">
+                <div class="content-child-2">
+                    <p>Reseaux informatique</p>
+                    <img src="outilsinfor.png" alt="">
+                    <p>(lan,wan,protocoles,..) <br> configuration <br> et gestion de routeurs <br>
+                        commutateurs et pare-feux. <br> Administration des serveurs et des systèmes <br>
+                        d'exploitation resolution <br> de <br> problèmes liés aux réseaux <br>
+                         et aux performances des systèmes
+                    </p>
+                </div>
+                <p></p>
+                <div class="content-child-2">
+                    <p>sécurité informatique</p>
+                    <img src="loglangue.png" alt="">
+                    <p>principe de la sécurité informatique <br>
+                        et des mécanismes de défense. <br> 
+                        Identification des vulnérabilités <br>
+                         et <br> des menaces potentielles. <br>
+                         Techniques de sécurisation des Reseaux <br>
+                         et des systèmes ethique et <br> conformité en matière de securité
+                    </p>
+                </div>
+            </div>
+            <!--
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <!- The dots/circles 
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            -->
+            <p></p>
+            <p></p>
+            <br>
+            </section>
+            <div class="chat-gpt">
+                <h1>chat-gpt et machine learning</h1>   
+                <div class="gpt-1">
+                    <p>
+                        Les intelligences artificielles (IA) fonctionnent en utilisant des Algorithmes complexes qui leurs peremettent de traiter et d'analyser 
+                        de grandes quantité de données. l'apprentissage de l'IA se fait generalement par deux methodes principales 
+                        l'apprentissage supervisé et l'apprentissage non supervisé. <br>
+                        Dans l'apprentissage supervisé l'IA est entrainée sur un ensemble de données etiquetées, où elle apprend à associer des entrées à des sorties. <br>
+                        Par exemple pour la reconnaissance d'image, l'IA peut se former à reconnaitre des objets en se basant sur des images préalablement etiquetées <br>
+                        l'apprentissage non supervisé quant à lui , permet l'IA d'analyser des données sans etiquetes . elle identifiedes structures et des modèles cachés dans les données sans instruction
+                        <br>En outre il existe egalement l'apprentissage par renforcement où l'IA apprend en interagissant avec son envirronnement en recevant des récompenses pour des actions positives  et des sanctions pour des actions negatives
+                    </p>
+                    <img src="gtpfunction.png" alt="" style="border: 0px;">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="pdf">
+                <h2>fichiers pdf</h2>
+                <div class="file">
+                    <a href="Pierre-Giraud-Liste-des-propriétés-CSS.pdf"><img src="images (5).png" alt=""><br> propriétés-CSS</a>
+                    <a href="apprendre-a-programmer-avec-python-3.pdf"><img src="images (5).png" alt=""><br>programmer-avec-python-3</a>
+                    <a href="Introduction_Reseau.pdf"><img src="images (5).png" alt=""><br>Introduction_Reseau</a>
+                </div>
+            </div>
+        </section>
+        <section class="sectiont">
+            <h1>A propos du développeur</h1>
+            <div class="flex">
+                <img src="20230717_190332.png" alt="">
+                <p>Nouroumountaga ndao 18ans developpeur web HTML/CSS/JAVASCRIPT , programmeur pythgon <br>
+                    et formateur dans le domaine de l'informatique avec presque 2ans d'expérience dans ce domaine <br>
+                </p>
+            </div>
+            <h1>Pourquoi ce site</h1>
+            <p>j'ai conçu ce site web de A à Z pour aider les personnes souhaitant faire de l'informatique <br>
+                à bien se situer dans ce domaine,l'informatique est un domaine en constante evolution donc ce site, est un site dynamique <br>
+                c'est à sera constamment mit à jour pour ne pas rater les nouvelles avancées de la technologie <br><span>cependant le site doit etre bien entretenir pour eviter les attaques (piratage) et doit etre améliorer donc n'hesitez pas à me faire un <mark>don</mark> pourqu'on puisse améliorer et bien travailler notre site je vous accompagnerai tout au long de votre voyage dans le domaine de l'informatique en publiant souvent de nouvelles informations <br>
+                    ensemble construisons notre communauté de développeur <mark>GalsenTech</mark> envoyer moi un message pour nous rejoindre !
+                </span>
+            </p>
+            <p> Numéro de téléphone (don): +221 78 184 30 73 orange_money/wave </p>
+        </section>
+        <section>
+            <div class="footer">
+                <h1>MES FORMATIONS</h1>
+                <div class="last-content">
+                    <div class="last-child">
+                        <img src="20230511_222723.png" alt="">
+                        <p>--MasterClass  HTML/CSS</p>
+                        <p>--Ce vous allez apprendre:<p>
+                        <p>--Apprendre les bases du developpemt web</p>
+                        <p>--apprendre à créer des sites web interactifs</p>
+                        <p>--créer des sites web epoustouflants</p>
+                        <p>--vous serez guider de pas à pas</p>
+                        <p> <span>5000 Fr</span> </p>
+                    </div>
+                    <div class="last-one-child">
+                        <img src="4518857_python_icon.png" alt="">
+                        <p>
+                            vous avez toujours revé de donner vie à des projets pythgon incroyables
+                        </p>
+                        <p>--Plonger dans l'univers fascinant de la programmation</p>
+                        <p>--apprendre les bases du langage du pythgon</p>
+                        <p>--apprendre à créer vos propres programmes</p>
+                        <p><span>10 000 Fr</span> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="other">
+                <h1> Ce que vous aurez en bonus </h1>
+                <li>créer deux sites web avec moi: <br>
+                     un site de portofolio (site de notre cv en informatique)</li>
+                <li>créer un site de vente (front-end): l' interface utilisateur</li>
+                <li>créer deux programmes python: <br> un convertisseur d'unité et d'un projet questionnaire (jeu quiz)</li>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-last">
+                <dl>
+                    <dt>Mes Cordonnées</dt> 
+                    <br>
+                    <dd>
+                        <p><i class="fa fa-phone" aria-hidden="true"  style="font-size: 30px; color: rgb(253, 254, 254);"></i> +221 78-184-30-73  </p>  
+                        <br>
+                        <p>&#x2709; <a href="mailto:nouroumountagandao5@gmail.com" style="text-decoration: none;">Nouroumountagandao5@gmail.com</a></p>
+                        <br>
+                        <p> <i class="fa fa-instagram" aria-hidden="true"  style="font-size: 30px; color: rgb(251, 255, 255);"></i> Mountaga0405 </p>         
+                    </dd>
+                </dl>
+                <br>
+                <h5>&#xa9; copyright 2023</h5>
+            </div>
+        </footer>
 </body>
 </html>
